@@ -7,8 +7,6 @@ import re
 capital = re.compile(r'[A-Z]')
 numerical = re.compile(r'[0-9]')
 
-password = re.compile(r'[A-Za-z\.\d@=-]+')
-
 user_passwd = input('Please enter your password: ')
 
 def Verify(user_passwd):
