@@ -24,7 +24,7 @@ def Verify(user_passwd):
             numerical_count = numerical_count + 1
         if small_letter.search(letter) != None:
             small_letter_count = small_letter_count + 1
-    if capital_count > 0 and  numerical_count > 0 and small_letter_count > 0 and len(user_passwd) > 8 :
+    if capital_count > 0 and  numerical_count > 0 and small_letter_count > 0 and len(user_passwd) > 10 :
         print('The password is valid and apparently safe')
     elif len(user_passwd) >= 12:
         print("Password is longer than 12 characters, thus safe")
