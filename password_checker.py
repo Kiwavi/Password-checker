@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-""" This is a program that checks whether the password is correct or not using regular expressions. """
+""" This is a program that checks whether the password is safe or not using regular expressions. """
 
 import re
 
