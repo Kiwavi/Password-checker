@@ -30,7 +30,7 @@ def Verify(user_passwd):
     elif len(user_passwd) > 12 and small_letter_count > 0: 
         print("Password is longer than 12 characters, thus safe")
     elif len(user_passwd) > 12 and capital_count > 0:
-        print("Password longer than 12 characters and thus safe")
+        print("Password longer than 12 characters and thus quite safe")
     else:
         print('The password you entered is incorrect, make sure it has a capital letter, a small letter, a digit, and is longer than 11 characters')
 
