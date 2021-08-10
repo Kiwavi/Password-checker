@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-""" This is a program that checks whether the password is correct or not using regular expressions. Now I will make it more secure by making sure that the user doesn't """
+""" This is a program that checks whether the password is correct or not using regular expressions."""
 
 import re
 
